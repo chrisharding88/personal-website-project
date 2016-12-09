@@ -1,0 +1,242 @@
+/***************************************************************
+GENERAL
+****************************************************************/
+
+ul.nav-main{
+	margin: 0%;
+	padding: 0 5%;
+	list-style-type:none;
+	
+}
+
+ul.nav-main li {
+	display: inline;
+	width: 45%
+	margin: 2.5%;
+    padding: 15px 20px;
+}
+
+
+
+
+
+nav {
+	text-align: center;
+	text-decoration: none;
+	font-size: 36px;
+	margin: 20px 0 0;
+	padding: 20px;	
+}
+
+h1 {
+	color: yellow;
+	text-align: center;
+	font-size: 60px;
+	line-height: 75px;
+	margin-bottom: -15px;
+}
+
+
+body {
+	background-color: black;
+	font-family: 'Monoton', cursive;
+	color: yellow;
+}
+
+header{
+	background-color: black;
+	
+}
+
+a {
+	color: yellow;
+	text-decoration: none;
+	padding: 20px 10px
+}
+
+a:hover {
+	color: green;
+}
+
+/****************************************************************
+PAGE: ABOUT
+*****************************************************************/
+
+.profile-picture {
+	display: block
+	width: 400px;
+	height: auto;
+	margin: 0 auto 30px;
+	border-radius: 100%;
+	padding: 35px;
+    align-items: right;
+}
+
+h2 {
+	font-size: 56px;
+}
+
+p{
+	font-size: 36px;
+	width: 60%;
+}
+
+
+/*****************************************************************
+PAGE: IMAGE GALLERY
+*****************************************************************/
+div {
+	border: 2px solid green;
+	
+}
+
+.container {
+	display: none;
+}
+
+h2 {
+	text-align: center;
+}
+
+.chris2013 {
+	width: 382px;
+	height: 450px;
+}
+
+.chrisandGTA {
+	width: 382px;
+	height: 450px;
+}
+
+.chrisandjohnchaney {
+	width: 382px;
+	height: 450px
+}
+
+.chris_carshow {
+	width: 382px;
+	height: 450px
+}
+
+
+
+.chris2013,
+.chrisandGTA,
+.chrisandjohnchaney,
+.chris_carshow,
+.chrisandpaige,
+.chris_josh_kat,
+.chrisandkat,
+.chrisdj1,
+.chrisdj2,
+.DJbolt,
+.chrisatparty {
+	border: 12px solid black;
+}
+
+.chrisandpaige {
+	width: 520px;
+	height: 450px;
+}
+
+.chris_josh_kat {
+	width: 520px;
+	height: 450px;
+}
+
+.chrisandkat {
+	width: 520px;
+	height: 450px;		
+}
+
+
+.chrisdj1 { 
+	width: 382px;
+	height: 450px;
+}
+
+.chrisdj2 {
+	width: 382px;
+	height: 450px;
+}
+
+.DJbolt {
+	width: 382px;
+	height: 450px;
+}
+
+.chrisatparty {
+	width: 382px;
+	height: 450px;
+}
+
+/*****************************************************************
+PAGE: CONTACT ME
+*****************************************************************/
+.social-media-list {
+	list-style-type: none;
+}
+
+.facebook,
+.twitter,
+.instagram {
+	color: black;
+	font-size: 36px;
+	font-weight: bold;
+	display: block;
+	padding: -10px;
+	margin: -20px;
+
+}
+
+.facebook-icon {
+	width: 150px;
+	height: 100px;
+}
+
+.twitter-icon {
+	width: 150px;
+	height: 150px;
+}
+
+.instagram-icon {
+	width: 150px;
+	height: 150px;
+}
+
+.contact-head {
+	font-size: 60px;
+}
+
+.facebook,
+.twitter,
+.instagram: hover {
+	color: green;
+}
+
+.chris_cherry_crusade{
+	display: block;
+	margin: 0px auto;
+	width: 680px;
+}
+
+.contact_description {
+	font-size: 50px;
+	text-align: center;
+	width: 100%;
+}
+
+/*****************************************************************
+MEDIA QUERIES
+*****************************************************************/
+@media all and (min-width: 360px) {
+	body {
+		background-color: yellow;
+		color: black;
+	}
+
+	.container {
+		display: block;
+	}
+
+}
