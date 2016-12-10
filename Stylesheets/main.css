@@ -58,37 +58,54 @@ a:hover {
 	color: green;
 }
 
+footer {
+	font-size: 25px;
+	
+	
+}
+
 /****************************************************************
 PAGE: ABOUT
 *****************************************************************/
 
 .profile-picture {
 	display: block
-	width: 400px;
-	height: auto;
+	width: 200px;
+	height: 650px;
 	margin: 0 auto 30px;
 	border-radius: 100%;
 	padding: 35px;
-    align-items: right;
+    float:right;
 }
 
 h2 {
 	font-size: 56px;
 }
 
-p{
-	font-size: 36px;
-	width: 60%;
+p.about{
+	font-size: 25px;
+	width: 59%;
+	float: left;
+	line-height: 50px;
+	display: block;
+
 }
+
+.about {
+	border: 5px solid green;
+	padding:20px;
+	background-color: black;
+	color: yellow;
+
+
+}
+
+
 
 
 /*****************************************************************
 PAGE: IMAGE GALLERY
 *****************************************************************/
-div {
-	border: 2px solid green;
-	
-}
 
 .container {
 	display: none;
@@ -179,14 +196,12 @@ PAGE: CONTACT ME
 
 .facebook,
 .twitter,
-.instagram {
-	color: black;
+.instagram, 
+.gmail{
 	font-size: 36px;
 	font-weight: bold;
-	display: block;
-	padding: -10px;
-	margin: -20px;
-
+	padding: 20px;
+	margin: -40px;
 }
 
 .facebook-icon {
@@ -200,8 +215,13 @@ PAGE: CONTACT ME
 }
 
 .instagram-icon {
-	width: 150px;
-	height: 150px;
+	width: 130px;
+	height: 130px;
+}
+
+.gmail-icon {
+	width: 130px;
+	height: 130px;
 }
 
 .contact-head {
@@ -210,7 +230,8 @@ PAGE: CONTACT ME
 
 .facebook,
 .twitter,
-.instagram: hover {
+.instagram,
+.gmail: hover {
 	color: green;
 }
 
@@ -218,12 +239,18 @@ PAGE: CONTACT ME
 	display: block;
 	margin: 0px auto;
 	width: 680px;
+	float: right;
 }
 
-.contact_description {
+.contact_description,
+.social-media-list {
 	font-size: 50px;
-	text-align: center;
-	width: 100%;
+	width: 62%;
+	float: left;
+	border: 5px solid green;
+	background-color: black;
+	color: yellow;
+	display: block;
 }
 
 /*****************************************************************
