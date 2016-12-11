@@ -119,6 +119,8 @@ PAGE: IMAGE GALLERY
 
 .container {
 	display: none;
+	border: 5px solid green
+
 }
 
 h2 {
@@ -126,22 +128,22 @@ h2 {
 }
 
 .chris2013 {
-	width: 382px;
+	width: 423px;
 	height: 450px;
 }
 
 .chrisandGTA {
-	width: 382px;
+	width: 423px;
 	height: 450px;
 }
 
 .chrisandjohnchaney {
-	width: 382px;
+	width: 423px;
 	height: 450px
 }
 
 .chris_carshow {
-	width: 382px;
+	width: 423px;
 	height: 450px
 }
 
@@ -159,41 +161,42 @@ h2 {
 .DJbolt,
 .chrisatparty {
 	border: 12px solid black;
+	margin: 10px;
 }
 
 .chrisandpaige {
-	width: 520px;
-	height: 450px;
+	width: 577px;
+	height: 550px;
 }
 
 .chris_josh_kat {
-	width: 520px;
-	height: 450px;
+	width: 577px;
+	height: 550px;
 }
 
 .chrisandkat {
-	width: 520px;
-	height: 450px;		
+	width: 577px;
+	height: 550px;		
 }
 
 
 .chrisdj1 { 
-	width: 382px;
+	width: 418px;
 	height: 450px;
 }
 
 .chrisdj2 {
-	width: 382px;
+	width: 418px;
 	height: 450px;
 }
 
 .DJbolt {
-	width: 382px;
+	width: 418px;
 	height: 450px;
 }
 
 .chrisatparty {
-	width: 382px;
+	width: 418px;
 	height: 450px;
 }
 
