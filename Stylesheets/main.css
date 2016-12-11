@@ -19,7 +19,6 @@ ul.nav-main li {
 
 
 
-
 nav {
 	text-align: center;
 	text-decoration: none;
@@ -57,12 +56,15 @@ header{
 a {
 	color: yellow;
 	text-decoration: none;
-	padding: 20px 10px
+	padding: 20px 10px;
 }
 
 a:hover {
 	color: green;
 }
+
+
+
 
 footer {
 	font-size: 25px;
@@ -85,6 +87,7 @@ PAGE: ABOUT
 	padding: 35px;
     float:right;
     border: 10px solid green;
+    border-style: double;
     background-color: black;
 }
 
@@ -94,7 +97,7 @@ h2 {
 
 p.about{
 	font-size: 25px;
-	width: 68%;
+	width: 59%;
 	float: left;
 	line-height: 50px;
 	display: block;
@@ -102,7 +105,8 @@ p.about{
 }
 
 .about {
-	border: 10px solid green;
+	border: 20px solid green;
+	border-style: outset;
 	padding:20px;
 	background-color: black;
 	color: yellow;
@@ -283,7 +287,8 @@ PAGE: CONTACT ME
 .social-media-list {
 	font-size: 50px;	
 	float: left;
-	border: 10px solid green;
+	border: 20px solid green;
+	border-style:outset;
 	background-color: black;
 	color: yellow;
 	display: block;
